@@ -1,0 +1,29 @@
+{
+  "name": "@icon-album/svg",
+  "version": "1.0.0",
+  "description": "pure svg icon",
+  "author": "haozhigang <haozhigang@huice.com>",
+  "homepage": "https://github.com/gavin-hao/icon-album#readme",
+  "license": "ISC",
+  "main": "lib/svg.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavin-hao/icon-album.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/svg.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/gavin-hao/icon-album/issues"
+  }
+}
